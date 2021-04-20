@@ -8,6 +8,11 @@
       "maxzoom": 6,
       "url": "https://cdn.geolonia.com/tiles/natural-earth.json"
     },
+    "niarea": {
+      "type": "vector",
+      "maxzoom": 6,
+      "url": "https://d18lua88hn77yx.cloudfront.net/customtiles/niarea/tilejson.json"
+    },
     "geolonia": {
       "type": "vector",
       "minzoom": 6,
@@ -3469,6 +3474,63 @@
       },
       "paint": {
         "text-color": "#333",
+        "text-halo-width": 1.2,
+        "text-halo-color": "rgba(255,255,255,0.8)"
+      }
+    },
+    {
+      "id": "niarea-water-name",
+      "type": "symbol",
+      "source": "niarea",
+      "source-layer": "water_name",
+      "minzoom": 8,
+      "layout": {
+        "text-font": [
+          "Noto Sans Regular"
+        ],
+        "text-size": {
+          "stops": [
+            [
+              0,
+              10
+            ],
+            [
+              6,
+              14
+            ]
+          ]
+        },
+        "text-field": "{name}",
+        "text-max-width": 5,
+        "text-rotation-alignment": "map",
+        "symbol-placement": "point",
+        "symbol-spacing": 350,
+        "text-letter-spacing": 0.2,
+        "visibility": "visible"
+      },
+      "paint": {
+        "text-color": "#74aee9",
+        "text-halo-width": 1.5,
+        "text-halo-color": "rgba(255,255,255,0.7)"
+      }
+    },
+    {
+      "id": "niarea-place",
+      "type": "symbol",
+      "source": "niarea",
+      "source-layer": "place",
+      "minzoom": 8,
+      "layout": {
+        "text-font": [
+          "Noto Sans Regular"
+        ],
+        "text-size": 14,
+        "text-field": "{name}",
+        "text-max-width": 8,
+        "visibility": "visible"
+      },
+      "paint": {
+        "text-color": "rgba(102, 102, 102, 1)",
         "text-halo-width": 1.2,
         "text-halo-color": "rgba(255,255,255,0.8)"
       }
