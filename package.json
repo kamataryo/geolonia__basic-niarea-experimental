@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/geolonia/basic.git"
+    "url": "git+https://github.com/kamataryo/geolonia__basic-niarea-experimental.git"
   },
   "author": {
     "name": "Geolonia Inc.",
@@ -16,7 +16,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/geolonia/basic/issues"
+    "url": "https://github.com/kamataryo/geolonia__basic-niarea-experimental/issues"
   },
-  "homepage": "https://github.com/geolonia/basic#readme"
+  "homepage": "https://github.com/kamataryo/geolonia__basic-niarea-experimental#readme"
 }

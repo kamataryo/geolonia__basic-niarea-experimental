@@ -2,8 +2,8 @@
 
 This is a Mapbox GL JS based style for [Geolonia](https://geolonia.com/).
 
-* [DEMO](https://geolonia.github.io/preview/#geolonia/basic)
-* [DEMO on editor](https://editor.geolonia.com/?style=https://raw.githubusercontent.com/geolonia/basic/master/style.json)
+* [DEMO](https://geolonia.github.io/preview/#kamataryo/geolonia__basic-niarea-experimental)
+* [DEMO on editor](https://editor.geolonia.com/?style=https://raw.githubusercontent.com/kamataryo/geolonia__basic-niarea-experimental/master/style.json)
 
 ## Development
 
@@ -19,7 +19,7 @@ $ chmod 755 /usr/local/bin/maputnik
 ### Contributing
 
 ```
-$ git clone git@github.com:geolonia/basic.git
+$ git clone git@github.com:kamataryo/geolonia__basic-niarea-experimental.git
 $ cd basic
 $ npm install
 $ npm start
