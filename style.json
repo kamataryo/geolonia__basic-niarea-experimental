@@ -3385,9 +3385,12 @@
       "source": "geolonia",
       "source-layer": "place",
       "filter": [
-        "==",
-        "class",
-        "town"
+        "all",
+        [
+          "==",
+          "class",
+          "town"
+        ]
       ],
       "layout": {
         "text-font": [
